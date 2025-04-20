@@ -1,0 +1,6 @@
+# Specify files that git should not diff for security purposes
+# This helps prevent accidental inclusion of sensitive data in git diffs
+*.env.* binary
+*.env binary
+*firebase-service-account*.json binary
+*serviceAccountKey*.json binary 
